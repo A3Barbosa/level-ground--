@@ -1,0 +1,272 @@
+*{ 
+  box-sizing: border-box;
+  }
+
+header,footer{
+width:100%;
+clear:both;
+}
+
+header{
+background:rgb(180, 188, 195);
+}
+
+.logo{
+width:4%;
+margin-left:23%;
+}
+
+.button{
+float:right;
+margin-right:7%
+}
+
+.start{
+  height:500px;
+  width:100%;
+  background:rgb(180, 188, 195);
+  margin-top:-55px;
+ 
+}
+
+.start p{
+color:white;  
+}
+
+ul li{
+  float:left;
+  width:10%;
+  list-style: none;
+  color:white;
+  }
+  
+
+h1{
+font-size: 4rem;   
+font-weight: bold;
+font-family: 'Times New Roman', Times, serif;
+color:white;
+text-align:center;
+}
+
+.p{
+height:100px;
+width:67%;
+float:left;
+margin-left:18%;
+}
+
+.s{
+height:67px;
+width:44%;
+float:left;
+margin-left:43%;
+}
+
+.s span{
+text-align:center;
+color:white;
+margin-left:-16%;
+}
+
+main{
+height:300px;
+width:100%;
+border:1px solid black;
+}
+
+main p{
+width:33%;
+margin-left:32%;
+}
+
+main h2{
+font-size:2rem;
+}
+
+.mainsec{
+height:400px;
+width:100%;
+border:1px solid darkgray;
+}
+
+.mainsec h2{
+margin-left:-7%;
+}
+
+.mainsec p{
+margin-left:25%;
+}
+
+span{
+text-align:center;
+color:black;
+padding-left:20%;
+}
+
+ .sec1{
+height:400px;
+width: 50%;
+border:1px solid black;
+background: lightgrey;
+float:left;
+} 
+
+ .box1{
+height:130px;
+width:40%;
+border:1px solid gray;
+background:rgb(79, 79, 101);
+margin-left:27%;
+} 
+
+.box1 p{
+text-align: center;
+}
+
+h2{
+  text-align: center;
+  }
+
+.mini1{
+height:12%;
+width:26%;
+border:1px solid black;
+margin-left:35%;
+}
+
+
+ .sec2{
+  height:400px;
+  width:50%;
+  border:1px solid black;
+  background: lightgrey;
+  float:right;
+  } 
+  
+  .mini2{
+    height:12%;
+    width:26%;
+    border:1px solid black;
+   margin-left:35%;
+    }
+  
+   .box2{
+    height:130px;
+    width:40%;
+    border:1px solid gray;
+    background: rgb(79, 79, 101);
+    margin-left:27%;
+  }
+  
+  
+.box2 p{
+text-align: center;
+}
+
+.lastbox{
+height:400px;
+width:100%;
+border:1px solid black;
+float:left;
+}
+
+.lastbox h2{
+text-align: center;
+}
+
+.lastbox p{
+width:35%;
+margin-left:38%;
+}
+
+.mini3{
+  height:38px;
+  width:18%;
+  margin-left:42%;
+  border:1px solid black;
+  color:black;
+  }
+
+
+
+footer{
+height: 200px;
+width:100%;
+border:1px solid black;
+float:left;
+background: rgb(10, 10, 43);
+}
+
+.icons a{
+color:white;
+}
+
+h6{
+color:white;
+}
+
+.info h6{
+margin-left:3%;
+}
+.info2 h6{
+margin-top:6%;
+margin-left:2%;
+}
+
+.info3{
+float:right;
+color:white;
+margin-top:-15%;
+width:22%;
+}
+
+/*stylesssssss*/
+
+@media (max-width:762px){
+main p{
+width:43%;
+}
+.info3{
+margin-top:-24%;
+}
+
+.info, .info2{
+display:none; 
+}
+
+.info3{
+margin-top:3%;
+width:79%;
+}
+}
+
+@media (max-width:640px){
+nav ul li{
+display: none;
+}
+.start h1{
+font-size:2rem;
+width:100%;
+padding-top:12%;
+}
+
+.start p{
+margin-top:-4%;
+}
+.start span{
+margin-left:-38%;
+}
+
+main p{
+width:79%;
+margin-left:15%;
+}
+.lastbox p{
+width:45%;
+}
+
+.mini3{
+width:22%;
+}
+}
